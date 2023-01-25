@@ -1,0 +1,11 @@
+.one{
+    background-color: rgb(255, 36, 36);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.two{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(231, 231, 231);
+}

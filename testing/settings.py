@@ -140,10 +140,10 @@ STATIC_URL = '/static/'
 #     BASE_DIR / "static",zzzfreeze
 
 # ]
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build', 'static')
+
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # STATIC_ROOT = os.path.join(BASE_DIR,'static')
 STATICFILES_DIR = {os.path.join(BASE_DIR , 'static')}
 
-
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build', 'static')
 # STATICFILES_DIRS = {os.path.join(BASE_DIR,'static')}
